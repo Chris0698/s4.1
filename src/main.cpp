@@ -9,6 +9,7 @@ int main(void)
     int n;
     pc.puts("\e[4mHello\e[m is the K64F\n");
     while (true) {
+
       for( q=0 ; q<11 ; q++) {
         pc.printf("%2d... ", q);
         wait(1.0);
